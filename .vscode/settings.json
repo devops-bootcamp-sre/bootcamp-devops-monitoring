@@ -1,5 +1,0 @@
-{
-    "yaml.schemas": {
-        "https://json.schemastore.org/yamllint.json": "file:///home/cnunez/bootcamp/bootcamp-devops-monitoring/grafana/datasources/prometheus.yaml"
-    }
-}
