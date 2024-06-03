@@ -471,7 +471,7 @@
           },
           "disableTextWrap": false,
           "editorMode": "builder",
-          "expr": "max by(pod) (sum by(pod) (container_cpu_usage_seconds_total{namespace=~\".+-dev\"}))",
+          "expr": "max by(pod) (sum by(pod) (container_cpu_load_average_10s{namespace=~\".+-dev\"}))",
           "fullMetaSearch": false,
           "includeNullMetadata": true,
           "instant": false,
